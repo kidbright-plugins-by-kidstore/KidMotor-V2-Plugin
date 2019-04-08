@@ -6,20 +6,21 @@
   Sonthaya Nongnuch : fb.me/maxthai
 */
 
+#include <string.h>
 #include "driver.h"
 #include "device.h"
 #include "i2c-dev.h"
 #include "driver/uart.h"
 #include "kidbright32.h"
 
-class KidMotor : public Device {
+class KidMotorV2 : public Device {
 	private:		
 		I2CDev *i2c;
 		uint8_t KidMotorData[2];
 
 	public:
 		// constructor
-		KidMotor(int bus_ch, int dev_addr) ;
+		KidMotorV2(int bus_ch, int dev_addr) ;
 		
 		// override
 		void init(void);

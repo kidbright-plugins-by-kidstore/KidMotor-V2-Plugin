@@ -1,7 +1,7 @@
 Blockly.Blocks["kidmotor_motor"] = {
 	init: function() {
 		this.jsonInit({
-			"message0": "motor  %1 move %2 at speed %3",
+			"message0": Blockly.Msg.KIDMOTOR_MOTOR_MESSAGE,
 			"args0": [{
 				"type": "field_dropdown",
 				"name": "n",
@@ -13,8 +13,8 @@ Blockly.Blocks["kidmotor_motor"] = {
 				"type": "field_dropdown",
 				"name": "dir",
 				"options": [
-					[ "forward", "1" ],
-					[ "backward", "0" ]
+					[ Blockly.Msg.KIDMOTOR_MOTOR_FORWARD_MESSAGE, "1" ],
+					[ Blockly.Msg.KIDMOTOR_MOTOR_BACKWARD_MESSAGE, "0" ]
 				]
 			}, {
 				"type": "input_value",
@@ -25,7 +25,7 @@ Blockly.Blocks["kidmotor_motor"] = {
 			"previousStatement": null,
 			"nextStatement": null,
 			"colour": 45,
-			"tooltip": "Change direction and speed of motor in channel 1 or 2",
+			"tooltip": Blockly.Msg.KIDMOTOR_MOTOR_TOOLTIP,
 			"helpUrl": "https://www.ioxhop.com/"
 		});
 	}

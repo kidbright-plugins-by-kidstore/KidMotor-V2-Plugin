@@ -1,14 +1,4 @@
-Blockly.Msg.KIDMOTOR = {
-	// Speed
-	"KidMotor    Set speed Chanel": "KidMotor    Set speed Chanel",
-	"to": "to",
-	"Set speed of motor": "Set speed of motor",
-	
-	// Direction
-	"KidMotor    Set direction Chanel": "KidMotor    Set direction Chanel",
-	"Stop": "Stop",
-	"Forward": "Forward",
-	"Reverse": "Reverse",
-	"Break": "Break",
-	"Set direction of motor": "Set direction of motor"
-};
+Blockly.Msg.KIDMOTOR_MOTOR_MESSAGE = "motor  %1 move %2 at speed %3";
+Blockly.Msg.KIDMOTOR_MOTOR_FORWARD_MESSAGE = "forward";
+Blockly.Msg.KIDMOTOR_MOTOR_BACKWARD_MESSAGE = "backward";
+Blockly.Msg.KIDMOTOR_MOTOR_TOOLTIP = "Change direction and speed of motor in channel 1 or 2";

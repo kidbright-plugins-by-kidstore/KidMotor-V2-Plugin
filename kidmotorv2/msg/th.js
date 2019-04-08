@@ -1,14 +1,4 @@
-Blockly.Msg.KIDMOTOR = {
-	// Speed
-	"KidMotor    Set speed Chanel": "ควบคุมมอเตอร์    กำหนดความเร็วช่อง",
-	"to": "เป็น",
-	"Set speed of motor": "ใช้กำหนดความเร็วการหมุนของมอเตอร์",
-	
-	// Direction
-	"KidMotor    Set direction Chanel": "ควบคุมมอเตอร์    กำหนดทิศทางการหมุนช่อง",
-	"Stop": "หยุดหมุน",
-	"Forward": "หมุนตาม",
-	"Reverse": "หมุนทวน",
-	"Break": "บังคับหยุด",
-	"Set direction of motor": "ใช้กำหนดทิศทางการหมุนของมอเตอร์"
-};
+Blockly.Msg.KIDMOTOR_MOTOR_MESSAGE = "มอเตอร์  %1 หมุน %2 ที่ความเร็ว %3";
+Blockly.Msg.KIDMOTOR_MOTOR_FORWARD_MESSAGE = "ตามเข็มนาฬิกา";
+Blockly.Msg.KIDMOTOR_MOTOR_BACKWARD_MESSAGE = "ทวนเข็มนาฬิกา";
+Blockly.Msg.KIDMOTOR_MOTOR_TOOLTIP = "เปลี่ยนทิศทางและความเร็วของมอเตอร์ 1 หรือ 2";
